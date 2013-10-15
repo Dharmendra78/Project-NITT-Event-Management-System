@@ -1,0 +1,44 @@
+  MUST READ BEFORE INSTALLING THIS PROJECT NITT EVENT MANAGEMENT SYSTEM FOR DATABASE CONNECTIVITY
+=================================================================================================
+
+1)   DATA SOURCE NAME(ODBC DSN)
+===================================
+  nitt
+
+
+2) CREATE USERNAME FOR ORACLE USERNAME AND PASSWORD
+===================================
+
+USERNAME  :  dharmendra
+PASSWORD  :  mca
+-------------------------------------------------------
+OPEN THE ORACLE SQL PLUS AND RUN THE FOLLOWING COMMANDS
+-------------------------------------------------------
+1.CONNECT dharmendra/mca;
+2.create tabel Login
+  (
+      username varchar2(20),
+      password varchar2(20)
+  );
+3.create table Booking
+  (
+      Faculty varchar2(20) not null,
+      Department varchar2(20) not null,
+      Event varchar2(20) not null,
+      Email varchar2(20) not null,
+      Mobile varchar2(12) not null,
+      B_Date varchar2(12) not null,
+      Hall varchar2(15) not null
+   );
+4.insert into Login values('dk','12');
+-------------------------------------------------------------
+NOW OPEN THE PROJECT EVENT MANAGEMENT SYSTEM BY NET-BEANS IDE
+-------------------------------------------------------------
+REMEMBER:NET FRAMEWORK 3.5 MUST BE INSTALLED IN YOUR COMPUTER
+
+3) LOGIN ID AND PASSWORD
+==================================
+
+USERNAME        PASSWORD
+=========	========
+dk		12
