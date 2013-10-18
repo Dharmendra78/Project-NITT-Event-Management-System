@@ -1,4 +1,4 @@
-                               NITT Event Management System
+                                    NITT Event Management System
 ========================================================================================================================= 
                                    
                                     PROBLEM STATEMENT
