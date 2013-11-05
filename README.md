@@ -1,7 +1,7 @@
                                     NITT Event Management System
 ========================================================================================================================= 
                                    
-                                    PROBLEM STATEMENT
+                                     PROBLEM STATEMENT
 _______________________________________________________________________________________________________________________
 
 There are many events organized by students in NITT in every year. There are some difficulty comes during that time for
